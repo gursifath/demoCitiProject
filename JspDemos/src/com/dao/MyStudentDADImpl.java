@@ -16,6 +16,7 @@ public class MyStudentDADImpl implements StudentDAD {
 	private Connection openConnection() {
 		Connection connection = null;
 		try {
+			System.out.println("bvhbj");
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			System.out.println("Driver loadedd successfully");
 //			jdbc:data_base:install_server:port/database
