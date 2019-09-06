@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+Hello
 	<jsp:useBean id="stu" class="com.dao.Student" scope="request"></jsp:useBean>
 	
 	Student name:<jsp:getProperty property="stuName" name="stu"/>
