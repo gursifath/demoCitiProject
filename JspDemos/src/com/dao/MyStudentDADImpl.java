@@ -19,7 +19,7 @@ public class MyStudentDADImpl implements StudentDAD {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			System.out.println("Driver loadedd successfully");
 //			jdbc:data_base:install_server:port/database
-
+//hello
 //			get connection
 			connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "hr", "abcd123");
 			System.out.println("Connection obtained");
