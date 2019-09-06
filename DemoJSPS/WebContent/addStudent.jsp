@@ -10,7 +10,7 @@
 
 <%
 String message = (String) request.getAttribute("msg");
-out.println(message); 
+out.println(message);
 %>
 
 <br>
